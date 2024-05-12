@@ -3,7 +3,7 @@ import { Box, Heading, Input, Button, List, ListItem, ListIcon, VStack, HStack, 
 import { FaPlus, FaTrash } from "react-icons/fa";
 
 const Index = () => {
-  const [todos, setTodos] = useState([]);
+  const [todos, setTodos] = useState(["Check emails", "Team meeting at 10 AM", "Project review", "Lunch break", "Client call at 3 PM"]);
   const [inputValue, setInputValue] = useState("");
   const toast = useToast();
 
